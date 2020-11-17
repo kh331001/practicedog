@@ -1,0 +1,43 @@
+body{
+
+}
+
+h1{
+  color:purple;
+  /*background: #FFCC00; */
+  text-align: left;
+  font-size: 200px
+}
+h2{
+   color:blue;
+   text-align: left;
+   font-size: 100px;
+}
+h3{
+    color: blue;
+    text-align: left;
+    font-size: 80px;
+}
+h4{
+    color: blue;
+    text-align: left;
+    font-size: 80px;
+
+}
+.dogcolumn img,.dogcolumn p {
+  float: left;
+}
+.dogfacts{
+  background:green
+  color:white;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+
+    backgroundcolor: purple;
+  }
+  .dogcolumn img {
+    width: 100%;
+  }
+}
